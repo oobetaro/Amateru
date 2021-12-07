@@ -1,0 +1,32 @@
+#
+# インストール時にDBに作成するテーブル
+# 作成したテーブルはsaアカウント以外アクセスする権限は無い。
+#
+CREATE USER "guest" PASSWORD "";
+#
+#色設定情報を保管するテーブル
+#
+CREATE TABLE COLOR_PROPERTIES(
+  NAME     VARCHAR   NOT NULL,  /* 設定名：シティライト、オーシャン等   */
+  TYPE     VARCHAR   NOT NULL,  /* チャートタイプ：基本円用etc     */
+  PRIORITY INTEGER   NOT NULL,  /* 名前のリストを表示する際の優先順位 */
+  PROPERTIES VARCHAR NOT NULL   /* プロパティは全部文字列にして保管する */
+);
+#
+# 計算仕様の設定情報を保管するテーブル
+# (COLOR_PROPERTIESと同じ構造)
+#
+CREATE TABLE SPECIFIC_PROPERTIES(
+  NAME     VARCHAR   NOT NULL,  /* 設定名 */
+  TYPE     VARCHAR   NOT NULL,  /* クラス名 */
+  PRIORITY INTEGER   NOT NULL,  /* 名前のリストを表示する際の優先順位 */
+  PROPERTIES VARCHAR NOT NULL   /* プロパティは全部文字列にして保管する */
+);
+#
+#プロパティ管理用でNAMEでグループわけしている。
+#
+CREATE TABLE PROPERTIES(
+  NAME   VARCHAR,
+  KEY    VARCHAR,
+  VALUE  VARCHAR
+);

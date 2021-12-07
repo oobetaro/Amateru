@@ -1,0 +1,14 @@
+sun15.gif
+moon15.gif
+mercury15.gif
+venus15.gif
+mars15.gif
+jupiter15.gif
+saturn15.gif
+uranus15.gif
+neptune15.gif
+pluto15.gif
+node15.gif
+s-node15.gif
+asc15.gif
+mc15.gif

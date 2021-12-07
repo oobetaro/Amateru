@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+SearchModule-Class1: to.tetramorph.starbase.search.TextSearchPanel
+SearchModule-Class2: to.tetramorph.starbase.search.AspectSearchPanel
+SearchModule-Class3: to.tetramorph.starbase.search.ZodiacIntegerSearchPanel
+SearchModule-Class4: to.tetramorph.starbase.search.ZodiacSearchPanel
+SearchModule-Class5: to.tetramorph.starbase.search.NoAspectsSearchPanel

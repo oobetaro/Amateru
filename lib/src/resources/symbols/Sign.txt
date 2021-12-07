@@ -1,0 +1,12 @@
+aries.gif    
+taurus.gif   
+gemini.gif   
+cancer.gif   
+leo.gif      
+virgo.gif    
+libra.gif    
+scorpio.gif  
+sagittarius.gif
+capricorn.gif
+aquarius.gif 
+pisces.gif

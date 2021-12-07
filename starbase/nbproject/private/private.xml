@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
+        <file>
+            <url>src/to/tetramorph/starbase/DataExplorerPanel.java</url>
+            <line>0</line>
+            <line>0</line>
+            <line>0</line>
+            <line>0</line>
+            <line>0</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/MainFrame.java</url>
+            <line>0</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/TimePanel3.java</url>
+            <line>80</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ReportChartModulePane.java</url>
+            <line>155</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ChartInternalFrame.java</url>
+            <line>364</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/TimeManeuverPanel.java</url>
+            <line>0</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/SpecificCustomizer.java</url>
+            <line>266</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ChartPane.java</url>
+            <line>295</line>
+            <line>365</line>
+            <line>614</line>
+            <line>874</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/Database.java</url>
+            <line>858</line>
+            <line>875</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ChartDataPanel.java</url>
+            <line>0</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/SabianDialog.java</url>
+            <line>0</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/HoroscopeChartModulePane.java</url>
+            <line>313</line>
+        </file>
+        <file>
+            <url>src/database/PlanetComboBox.java</url>
+            <line>71</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/Main.java</url>
+            <line>113</line>
+            <line>252</line>
+            <line>403</line>
+            <line>517</line>
+            <line>576</line>
+            <line>602</line>
+            <line>816</line>
+            <line>1046</line>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/PlaceChooser.java</url>
+            <line>0</line>
+        </file>
+    </editor-bookmarks>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0">
+        <file>
+            <url>src/database/PlanetComboBox.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>71</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/TimePanel3.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>80</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ReportChartModulePane.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>155</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/DataExplorerPanel.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/PlaceChooser.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/SpecificCustomizer.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>266</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ChartDataPanel.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/TimeManeuverPanel.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ChartInternalFrame.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>364</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/SabianDialog.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/ChartPane.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>295</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>365</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>614</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>874</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/Database.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>858</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>875</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/Main.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>113</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>252</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>403</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>517</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>576</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>602</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>816</line>
+                <key/>
+            </bookmark>
+            <bookmark id="0">
+                <name/>
+                <line>1046</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/HoroscopeChartModulePane.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>313</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/to/tetramorph/starbase/MainFrame.java</url>
+            <bookmark id="0">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="アマテル">
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/starbase/ChartPane.java</file>
+        </group>
+        <group>
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/starbase/Start.java</file>
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/astrocalendar/EnneagramCalendar2.java</file>
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/starbase/MutexServer.java</file>
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/starbase/Main.java</file>
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/starbase/CalcCustomizer.java</file>
+            <file>file:/C:/Users/ohsawa/Documents/NetBeansProjects/Amateru/starbase/src/to/tetramorph/starbase/VersionDialog.java</file>
+        </group>
+    </open-files>
+</project-private>

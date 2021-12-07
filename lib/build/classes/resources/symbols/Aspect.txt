@@ -1,0 +1,13 @@
+asp0-15.gif
+asp30-15.gif
+asp45-15.gif
+asp72-15.gif
+asp60-15.gif
+asp90-15.gif
+asp120-15.gif
+asp135-15.gif
+asp144-15.gif
+asp150-15.gif
+asp180-15.gif
+asp360-15.gif
+parallel15.gif

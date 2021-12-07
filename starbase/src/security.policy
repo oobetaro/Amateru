@@ -1,0 +1,30 @@
+/* AUTOMATICALLY GENERATED ON Mon Mar 05 02:39:11 JST 2007*/
+/* DO NOT EDIT */
+/* このファイルはすでに使用していない。廃止予定 */
+grant codeBase "file:/C:/sb/starbase/dist/lib/*" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:/C:/sb/starbase/dist/starbase.jar" {
+  permission java.security.AllPermission;
+};
+
+/* ChartModule側のclassファイルへの権限を与える */
+grant codeBase "file:/C:/sb/chartmod/dist/*" {
+  permission java.io.FilePermission "${user.home}\\test2\\temp\\-", "read,write,delete";
+  permission java.io.FilePermission "${swe.path}\\-" , "read";
+  permission java.io.FilePermission "C:\\sb\\chartmod\\dist\\*", "read";
+  permission java.io.FilePermission "C:\\sb\\starbase\\dist\\-", "read";
+  permission java.util.PropertyPermission "swe.path", "read";
+  permission java.util.PropertyPermission "DefaultTime", "read";
+};
+
+/* SearchModuleのjar書庫の置き場所にも権限を与える */
+grant codeBase "file:/C:/sb/searchmod/dist/*" {
+  permission java.io.FilePermission "c:\\temp\\" , "read,write,delete";
+  permission java.io.FilePermission "${swe.path}\\-", "read";
+  permission java.io.FilePermission "C:\\sb\\searchmod\\dist\\*", "read";
+  permission java.io.FilePermission "C:\\sb\\starbase\\dist\\-", "read";
+  permission java.util.PropertyPermission "swe.path", "read";
+  permission java.util.PropertyPermission "DefaultTime", "read";
+};

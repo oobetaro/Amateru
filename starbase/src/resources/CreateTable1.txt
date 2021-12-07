@@ -1,0 +1,12 @@
+#
+# ストアドプロシージャの登録
+#
+CREATE ALIAS SIGN FOR "to.tetramorph.starbase.Function.getSign";
+CREATE ALIAS ANGLE FOR "to.tetramorph.starbase.Function.getAngle";
+CREATE ALIAS ASPECT FOR "to.tetramorph.starbase.Function.isAspect";
+CREATE ALIAS JULDAY FOR "to.tetramorph.starbase.Function.getJDay";
+CREATE ALIAS NOASPECT FOR "to.tetramorph.starbase.Function.isNoAspect";
+GRANT ALL ON CLASS "to.tetramorph.starbase.Function.getSign" TO PUBLIC;
+GRANT ALL ON CLASS "to.tetramorph.starbase.Function.getAngle" TO PUBLIC;
+GRANT ALL ON CLASS "to.tetramorph.starbase.Function.isAspect" TO PUBLIC;
+GRANT ALL ON CLASS "to.tetramorph.starbase.Function.isNoAspect" TO PUBLIC;

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+ChartModule-Class1: to.tetramorph.starbase.chartmodule.NPTChartPlugin
+ChartModule-Class2: to.tetramorph.starbase.chartmodule.ReportPlugin
+ChartModule-Class3: to.tetramorph.starbase.chartmodule.AffinityChartPlugin
+ChartModule-Class4: to.tetramorph.starbase.chartmodule.SignGraphPlugin
+ChartModule-Class5: to.tetramorph.starbase.chartmodule.ArabicPartsPlugin
+ChartModule-Class6: to.tetramorph.starbase.chartmodule.OBEGraphPlugin
+ChartModule-Class7: to.tetramorph.starbase.chartmodule.TestPlugin
+ChartModule-Class8: to.tetramorph.starbase.chartmodule.TestPlugin2

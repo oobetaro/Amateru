@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.0" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <MenuItem class="javax.swing.JMenuItem" name="configMenuItem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x57fa;&#x672c;&#x8a2d;&#x5b9a;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="configMenuItemActionPerformed"/>
+      </Events>
+    </MenuItem>
+    <Container class="javax.swing.JDesktopPane" name="desktopPane">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+    </Container>
+    <Container class="javax.swing.JSplitPane" name="bottomSplitPane">
+      <Properties>
+        <Property name="orientation" type="int" value="0"/>
+        <Property name="oneTouchExpandable" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JSplitPane" name="dbSplitPane">
+          <Properties>
+            <Property name="oneTouchExpandable" type="boolean" value="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="bottom"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="menuBar">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="mnemonic" type="int" value="70"/>
+            <Property name="text" type="java.lang.String" value="&#x30d5;&#x30a1;&#x30a4;&#x30eb;(F)"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="registMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x30c7;&#x30fc;&#x30bf;&#x30d9;&#x30fc;&#x30b9;&#x306b;&#x767b;&#x9332;"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="regNatalMenuItem">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+N"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x30cd;&#x30fc;&#x30bf;&#x30eb;&#x30c7;&#x30fc;&#x30bf;&#x306e;&#x767b;&#x9332;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="regNatalMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="regEventMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x30a4;&#x30d9;&#x30f3;&#x30c8;&#x30c7;&#x30fc;&#x30bf;&#x306e;&#x767b;&#x9332;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="regEventMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="chartMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x767b;&#x9332;&#x305b;&#x305a;&#x306b;&#x30c1;&#x30e3;&#x30fc;&#x30c8;&#x4f5c;&#x6210;"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="natalChartMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x30cd;&#x30fc;&#x30bf;&#x30eb;&#x30c1;&#x30e3;&#x30fc;&#x30c8;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="natalChartMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="eventMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x30a4;&#x30d9;&#x30f3;&#x30c8;&#x30c1;&#x30e3;&#x30fc;&#x30c8;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eventMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="chartAddMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x30c1;&#x30e3;&#x30fc;&#x30c8;&#x306b;&#x30c7;&#x30fc;&#x30bf;&#x8ffd;&#x52a0;&#x5165;&#x529b;"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="addNatalMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x30cd;&#x30fc;&#x30bf;&#x30eb;&#x30c7;&#x30fc;&#x30bf;&#x8ffd;&#x52a0;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addNatalMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="addEventMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x30a4;&#x30d9;&#x30f3;&#x30c8;&#x30c7;&#x30fc;&#x30bf;&#x8ffd;&#x52a0;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addEventMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="backupMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x30d0;&#x30c3;&#x30af;&#x30a2;&#x30c3;&#x30d7;"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="exportAllMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x5168;&#x30d0;&#x30fc;&#x30b9;&#x30c7;&#x30fc;&#x30bf;&#x3092;&#x30a8;&#x30af;&#x30b9;&#x30dd;&#x30fc;&#x30c8;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exportAllMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="exportMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x9078;&#x629e;&#x3057;&#x305f;&#x30d5;&#x30a9;&#x30eb;&#x30c0;&#x3092;&#x30a8;&#x30af;&#x30b9;&#x30dd;&#x30fc;&#x30c8;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exportMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="windowMenu">
+          <Properties>
+            <Property name="mnemonic" type="int" value="87"/>
+            <Property name="text" type="java.lang.String" value="&#x30a6;&#x30a3;&#x30f3;&#x30c9;&#x30a6;(W)"/>
+          </Properties>
+          <Events>
+            <EventHandler event="menuSelected" listener="javax.swing.event.MenuListener" parameters="javax.swing.event.MenuEvent" handler="windowMenuMenuSelected"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="dbMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+D"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/resources/images/database_icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x30c7;&#x30fc;&#x30bf;&#x30d9;&#x30fc;&#x30b9;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dbMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="searchMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+F"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/resources/images/search_icon.gif"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x691c;&#x7d22;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="sabianDictMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x30b5;&#x30d3;&#x30a2;&#x30f3;&#x8f9e;&#x66f8;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sabianDictMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="calendarMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x30ab;&#x30ec;&#x30f3;&#x30c0;&#x30fc;"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="calendarMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x5929;&#x4f53;&#x30ab;&#x30ec;&#x30f3;&#x30c0;&#x30fc;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calendarMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="enneagramMenuItem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x30a8;&#x30cb;&#x30a2;&#x30b0;&#x30e9;&#x30e0;&#x30ab;&#x30ec;&#x30f3;&#x30c0;&#x30fc;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enneagramMenuItemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JMenuItem" name="newChartFrameMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+N"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x30c1;&#x30e3;&#x30fc;&#x30c8;&#x30d5;&#x30ec;&#x30fc;&#x30e0;&#x3092;&#x8907;&#x88fd;"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newChartFrameMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jdayMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x30e6;&#x30ea;&#x30a6;&#x30b9;&#x8a08;&#x7b97;&#x6a5f;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jdayMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="timeSliderMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x6642;&#x9593;&#x5236;&#x5fa1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="timeSliderMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="moduleMenu">
+          <Properties>
+            <Property name="mnemonic" type="int" value="67"/>
+            <Property name="text" type="java.lang.String" value="&#x30c1;&#x30e3;&#x30fc;&#x30c8;(C)"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="timeMenu">
+          <Properties>
+            <Property name="mnemonic" type="int" value="84"/>
+            <Property name="text" type="java.lang.String" value="&#x6642;&#x9593;(T)"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="prefMenu">
+          <Properties>
+            <Property name="mnemonic" type="int" value="80"/>
+            <Property name="text" type="java.lang.String" value="&#x8a2d;&#x5b9a;(P)"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="menuBar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,44,0,0,1,-112"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JToolBar" name="toolBar">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="North"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="dbButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/database_icon.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x30c7;&#x30fc;&#x30bf;&#x30d9;&#x30fc;&#x30b9;"/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x30c7;&#x30fc;&#x30bf;&#x9078;&#x629e;&#x3068;&#x7ba1;&#x7406; Ctrl-D"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dbButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="searchButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/search_icon.gif"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x691c;&#x7d22;"/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x30c7;&#x30fc;&#x30bf;&#x691c;&#x7d22; Ctrl-F"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="spreadButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/spread2_icon.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x5de6;&#x53f3;&#x306b;&#x6574;&#x5217;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spreadButtonActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="toolBar.addSeparator();"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="spreadButton2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/spread3_icon.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x4e09;&#x9762;&#x3067;&#x6574;&#x5217;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spreadButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="iconizeFrameButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/iconize_icon.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x3059;&#x3079;&#x3066;&#x30a2;&#x30a4;&#x30b3;&#x30f3;&#x5316;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iconizeFrameButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="expansionFrameButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/expantion_icon.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x3059;&#x3079;&#x3066;&#x3092;&#x5c55;&#x958b;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="expansionFrameButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="closeFrameButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/close_icon.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x3059;&#x3079;&#x3066;&#x30af;&#x30ed;&#x30fc;&#x30ba;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeFrameButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="nowChartButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/now_transit.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x4eca;&#x306e;&#x304a;&#x7a7a;&#x306e;&#x304a;&#x661f;&#x69d8;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nowChartButtonActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="toolBar.addSeparator();"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="myChartButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/resources/images/natal.gif"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="&#x30de;&#x30a4;&#x30c1;&#x30e3;&#x30fc;&#x30c8;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="myChartButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

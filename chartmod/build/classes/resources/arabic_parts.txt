@@ -1,0 +1,157 @@
+#-------------------------------------------------------------------
+# アラビックパーツ計算設定
+# "#"から右辺はコメントと見なす。
+# 不要な式は行頭に"#"をつけてコメントにすると表示が抑止される。
+# "","   "等、空白行は無視する。
+# "="の左辺はタイトル、右辺は計算式と見なす。
+# "="が三つある行は式が計算されたあと、最右辺の変数に代入される。
+# "="が三つある行は最初に評価される。
+# 変数名と演算子(+,-)は半角で記述する。大文字小文字は区別されない。
+# 実は(*,/)や括弧、定数、数学関数すら記述可能だが、必要性はあるまい。
+# 一行につき一つのパートで、複数行に渡る(改行で分断された）式は
+# 認識しない。
+# 調子にのって変な式を入れると、予期せぬエラーが出るかも。
+# アラビックパーツの計算式は次のサイトのものを使った。
+# http://www.ffortune.net/fortune/astro/sensitive/arabic.htm
+# 「こんな小さな窓でやってられっか！」という時は、エディタにコピペ
+# して、再度この窓に貼り戻すことをお勧め。
+# え？コピペのやり方を知らない？orz
+#-------------------------------------------------------------------
+Part of Fortune        = AC + Moon - Sun = POF
+Part of Spirit         = AC + Sun - Moon = POS
+母,女性の友人          = AC + Moon - Venus
+支配者,使用人          = AC + Moon - Mercury
+情報,知識,好奇心〔昼〕 = AC + Moon - Mercury
+情報,知識,好奇心〔夜〕 = AC + Mercury - Moon
+幸運(Luck)             = AC + Moon - Jupiter
+誕生・所有,母親        = AC + Moon - Saturn
+不動産,隠れた敵〔昼〕  = AC + Moon - Saturn
+不動産,隠れた敵〔夜〕  = AC + Saturn - Moon
+刺激的な友人           = AC + Moon - Uranus
+遺産(Heritage)         = AC + Moon - Cusp8
+##################################################
+# Recent FullMoon,RecentNewMoon,Lunationは未対応
+#生命力           = AC + Moon - Lunation
+#女性の人生       = AC + Moon - Recent_FullMoon
+#男性の人生       = AC + Moon - Recent_NewMoon
+##################################################
+Love to              = AC + Sun - Venus
+前進or達成           = AC + Sun - Jupiter
+父                   = AC + Sun - Saturn
+才能(Genius),投獄    = AC + Sun - Neptune
+援助(1)              = AC + Sun - POF
+
+交易(Commerce)       = AC + Mercury - Sun
+信頼,親友            = AC + Mercury - Moon
+訴訟(Lawsuit),泥棒   = AC + Mercury - Mars
+占星術,奇行          = AC + Mercury - Uranus
+借金,危険,暴力〔昼〕 = AC + Mercury - Saturn
+借金,危険,暴力〔夜〕 = AC + Saturn - Mercury
+
+Love from            = AC + Venus - Sun
+美,男性の結婚(喜び)  = AC + Venus - Sun
+娘(Daughter)         = AC + Venus - Moon
+芸術(Art)            = AC + Venus - Mercury
+愛と結婚             = AC + Venus - Jupiter
+男性の結婚,婿,成功   = AC + Venus - Saturn
+魅惑(Fascination)    = AC + Venus - Uranus
+離婚(Divorce)        = AC + Venus - Cusp7
+性愛(Eros)           = AC + Venus - POS   #(新月の時だけ AC+Venus-Sun)
+
+情熱(Passion),闘争   = AC + Mars - Sun
+人の生死             = AC + Mars - Moon
+女性の結婚           = AC + Mars - Moon
+息子(Son)            = AC + Mars - Moon
+理解,動機,管理       = AC + Mars - Mercury
+病気(Sickness),困難  = AC + Mars - Saturn
+同性愛               = AC + Mars - Uranus
+能力(Ability)        = AC + Mars - AcRuler
+
+増大(Increase)       = AC + Jupiter - Sun
+名声(Fame)〔昼〕     = AC + Jupiter - Sun
+名声(Fame)〔夜〕     = AC + Sun - Jupiter
+男の子               = AC + Jupiter - Moon
+保険(Assurance)      = AC + Jupiter - Mercury
+不動産(Real Estate)〔昼〕 = AC + Jupiter - Mercury
+不動産(Real Estate)〔夜〕 = AC + Mercury - Jupiter
+遺伝(Inheritance)    = AC + Jupiter - Venus
+兄弟姉妹(Sibling)    = AC + Jupiter - Saturn
+親の死〔昼〕         = AC + Jupiter - Saturn
+親の死〔夜〕         = AC + Saturn - Jupiter
+不一致(Controversy)  = AC + Jupiter - Mars
+自殺(Suicide)        = AC + Jupiter - Neptune
+慈悲(Benevolence)    = AC + Jupiter - Pluto
+祖父母(Grandparents)〔昼〕= AC + Jupiter - Cusp2
+祖父母(Grandparents)〔夜〕= AC + Cusp2 - Jupiter
+成功(Success)〔昼〕  = AC + Jupiter - POF
+勝利(Victory)〔夜〕  = AC + POS - Jupiter
+
+一致(Identity)            = AC + Saturn - Moon
+宿命(Fatality),悲劇       = AC + Saturn - Sun
+女性の結婚,農業           = AC + Saturn - Venus
+外科(Surgery)〔昼〕       = AC + Saturn - Mars
+外科(Surgery)〔夜〕       = AC + Mars - Saturn
+再生(Reincarnation)〔昼〕 = AC + Saturn - Jupiter
+再生(Reincarnation)〔夜〕 = AC + Jupiter - Saturn
+子供(Children)〔昼〕      = AC + Saturn - Jupiter
+子供(Children)〔夜〕      = AC + Jupiter - Saturn
+祖父母(Grandparents)〔昼〕= AC + Saturn - Cusp2
+祖父母(Grandparents)〔夜〕= AC + Cusp2 - Saturn
+
+破局(Catastrophe) = AC + Uranus - Sun
+不意の出来事      = AC + Uranus - Moon
+占星術(Astrology) = AC + Uranus - Mercury
+幸福(Happiness)   = AC + Uranus - Jupiter
+破局(Catastrophe) = AC + Uranus - Saturn
+空の旅            = AC + Uranus - Cusp9
+
+裏切り,詐欺       = AC + Neptune - Sun
+損害,不正         = AC + Neptune - Venus
+癌(Cancer)        = AC + Neptune - Jupiter
+注意(Caution)     = AC + Neptune - Saturn
+案内(Guidance)    = AC + Neptune - Uranus
+
+組織(Organization)  = AC + Pluto - Sun
+性衝動              = AC + Pluto - Venus
+恩恵(Benific)       = AC + Pluto - Jupiter
+
+Part of Secrets     = AC + MC - AcRuler
+
+援助(2),有名な友人  = AC + POF - Sun
+必要性(Nessesity)   = AC + POF - Mercury
+勇気(Courage)       = AC + POF - Mars
+突然の進歩,公正     = AC + POF - Saturn
+牢獄                = AC + POF - Neptune
+Part of Injury      = AC + POF - AcRuler
+不運(Bad Luck)      = AC + POF - POS
+創立(Foundation)    = AC + POF - POS
+
+財産(Possession)    = AC + Cusp2 - H2Ruler
+短期旅行            = AC + Cusp3 - H3Ruler
+性的快楽,欲望       = AC + Cusp5 - H5Ruler
+Part of Marriage    = AC + Cusp7 - Venus
+Part of Divorce     = AC + Cusp7 - Saturn
+公的な敵            = AC + Cusp7 - H7Ruler
+共同事業            = AC + Cusp7 - H10Ruler
+Part of Death       = AC + Cusp8 - Moon
+危難(Peril)〔昼〕   = AC + Cusp8 - Saturn
+危難(Peril)〔夜〕   = AC + Saturn - Cusp8
+自殺(Suicide)       = AC + Cusp8 - Neptune
+国内旅行(Journey)   = AC + Cusp9 - H9Ruler
+個人的な敵          = AC + Cusp12 - H12Ruler
+
+危険                = AC + H8Ruler - Saturn
+暗殺(Assassination) = AC + H12Ruler - Neptune
+
+耽溺(Addiction)     = AC + South_Node - Neptune
+
+息子たち(sons)      = Cusp4 + Moon - Sun
+断頭(Decapitation)  = Cusp8 + Mars - Moon
+婚姻(Weddings)      = Cusp9 + Cusp3 - Venus
+苦痛(Torture)       = Cusp10 + Saturn - Moon
+
+恋人たち(Lovers)    = Mars + Venus - Cusp5
+Point of Death      = Mars + Saturn - MC
+暗殺(Assassination) = Mars + Neptune - Uranus
+破産(Bankruptcy)    = Jupiter + Neptune - Uranus
+辞職(Resignation)   = Saturn + Jupiter - Sun

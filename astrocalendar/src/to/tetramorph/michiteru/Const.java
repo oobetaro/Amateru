@@ -1,0 +1,54 @@
+/*
+ * Const.java
+ *
+ * Created on 2008/02/11, 21:24
+ *
+ */
+
+package to.tetramorph.michiteru;
+
+/**
+ * ミチテルで使う定数群でアマテルと重複するものもあるが別ものとして分けた。
+ * @author 大澤義孝
+ */
+class Const {
+
+    /**
+     * 12星座の略称であるとともに、GIFファイル名のリスト。
+     */
+    public static final String [] ZODIAC_NAMES =
+    {
+        "ari","tau","gem","can","leo","vir","lib","sco","sag","cap","aqu","pis"
+    };
+
+    /**
+     *オリジナル占星術フォントにおける星座記号のcharコード
+     */
+    public static final char [] ZODIAC_CHARS =
+    {
+        0x21,0x22,0x23,0x24,0x25,0x26,0x27,0x28,0x29,0x2A,0x2B,0x2C
+    };
+
+    /**
+     * 占星術フォントの中の月相を表す文字コード(新月、上弦、満月、下弦)
+     */
+    public static final char [] MOON_CHARS = { 0x3D,0x3E,0x3F,0x40 };
+    /**
+     * オリジナル占星術フォントにおける感受点の記号で、天体番号順にならんでいる。
+     */
+    public static final char [] BODY_CHARS = {
+        0x42,0x43,0x44,0x45,0x46,0x47,0x48,0x49,0x4A,0x4B,
+        0x4C,0x4C,0x4E,0x4E,0x41,0x51,0x52,0x53,0x54,0x55,0x56,
+        0x4D,0x4D,
+        0x3C,0x3C, // 23,24 apogee,oscu.apogee
+        0,0,0,0,0,
+        0x58,0x5D,0x59,0x5E,0x5A,0x57,
+        0,0,0,0,0,
+        0x20,0x20,0x20,0x20,0x20,0x20,0x20,
+        0x20,0x20,0x20,0x20,0x20
+    };
+
+    private Const() {
+    }
+
+}

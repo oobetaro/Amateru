@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary_command>
+    <action name="SelectedBody">
+        <param key="house"
+	           values="house1,house2,house3,house4,house5,house6,house7,house8,house9,house10,house11,house12">
+        </param>
+	    <param key="planet"
+	           values="sun,mon,mer,ven,mar,jup,sat,ura,nep,plu">
+	    </param>
+	    <param key="sign"
+               values="ari,tau,gem,can,leo,vir,lib,sco,sag,cap,aqu,pis">
+        </param>
+        <param key="angle"
+	           values="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29">
+        </param>
+        <param key="type"
+	           values="natal,progress,transit">
+        </param>
+        <param key="isRetrograde"
+	           values="false,true">
+        </param>
+	</action>
+
+	<action name="SelectedAspect">
+        <param key="type"
+	           values="natal,progress,transit">
+        </param>
+	    <param key="planet"
+	           values="sun,mon,mer,ven,mar,jup,sat,ura,nep,plu">
+        </param>
+        <param key="type2"
+	           values="natal,progress,transit">
+        </param>
+	    <param key="planet2"
+	           values="sun,mon,mer,ven,mar,jup,sat,ura,nep,plu">
+        </param>
+	    <param key="aspect"
+	           values="conjunction,opsition,train">
+        </param>
+	</action>
+
+    <action name="SelectedText">
+        <param key="keyword"
+		       values="*">
+        </param>
+	</action>
+</dictionary_command>
